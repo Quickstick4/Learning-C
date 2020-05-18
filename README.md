@@ -3,7 +3,7 @@ Private Repo for me learning C/C+
 
 Done in Sample order using the GNU Compiler
 
-Folling compilation command:
+Following compilation command:
 
 g++ -o <output_file_name> -pedantic -asci <input_file_name.cpp>
 
