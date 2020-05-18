@@ -3,10 +3,6 @@
 //Taken from the book Exploring C++ The programmers introducion to C++
 //States explicitly in the book not to understand it - just to test compilation for the exercises in the book
 
-//Sort the standard input alphabetically.
-//Read lines of text, sort them, and print the results to the stadard output.
-//If the command lune names a file, read from that file. otherwise, read from the standard input. The tinter input is stored in memory, so don't try the with input files that exceed available RAM
-
 //Program from Learning C++ a programers introduction
 //Sort the standard input alpabetically
 
@@ -20,7 +16,7 @@
 #include <string>
 #include <vector>
 
-//only typing this out to test the compiler. Nothing else. No learning to be gained from this. Comments not typed out either.
+//only typing this out to test the compiler. Nothing else. No learning to be gained from this iaw book. Comments not typed out either.
 template<class Ch, class Tr, class OutIter>
 
 void read (std::basic_istream<Ch,Tr>& in, OutIter iter)
