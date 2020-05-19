@@ -11,7 +11,7 @@ g++ -o <output_file_name> -pedantic -asci <input_file_name.cpp>
 means: specifying the output name. You could write it as: g++ <input_file_name.cpp> -o <output_file_name>
 whatever is after -o is the output name.
 
--ansci 
+-ansi 
 enables support for ISO C89
 
 -pedantic
