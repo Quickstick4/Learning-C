@@ -1,5 +1,5 @@
 # Learning-C
-Private Repo for me learning C/C+
+Private Repo for me learning C/C+. Mainly C++ at this point
 
 Done in Sample order using the GNU Compiler
 
