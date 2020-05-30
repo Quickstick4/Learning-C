@@ -21,11 +21,12 @@ int main()
     //First bit is unique
     std::cout << "" << std::setfill(' ') << std::setw(5) << std::right << "*|";
 
-             //iterates to populate the rest of the line at correct spacing.  
-             for(int i(0); i < tableSize+1; i++)
-             {
-               std::cout << std::setw(5) << std::right << i;
-             }
+    //iterates to populate the rest of the line at correct spacing.  
+    for(int i(0); i < tableSize+1; i++)
+    {
+        std::cout << std::setw(5) << std::right << i;
+    }
+    
     //New line at end of first line             
     std::cout << '\n';
 
