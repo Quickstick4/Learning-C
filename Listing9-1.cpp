@@ -7,6 +7,11 @@
 int main()
 {
     std::vector<int> data; //intialize the array - vector is the closest that C++ has to a 'traditional' array according to the book. 
+
+    //data.front() returns element from begining
+    //data.back() returns element from end of array
+    //data.get(x) returns element from poisition x
+    //Book recommends using these functions to return values instead of (data [n]) because it is safer during execution whilst learning/experimenting
     int x(0);
 
     //Read intergers one at a time
