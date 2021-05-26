@@ -4,6 +4,27 @@
 #include <ostream>
 #include <vector>
 
+
+//Unless declared, functions must be above the main method. 
+void testing(std::vector<int> data)
+{
+    //does this work?
+    //return 0;
+
+    std::cout << "Your numbers in order are: " << '\n';
+
+    std::sort(data.begin(), data.end());
+    
+    for (std::vector<int>::size_type i(0); i != data.size(); i = i+1)
+    {
+        std::cout << data.at(i) << '\n';
+    }
+
+    //answear - it does. Functions learnt! Lets Change this again Testing again
+}
+
+
+
 int main()
 {
     std::vector<int> data; //intialize the array - vector is the closest that C++ has to a 'traditional' array according to the book. 
@@ -14,6 +35,9 @@ int main()
     //Book recommends using these functions to return values instead of (data [n]) because it is safer during execution whilst learning/experimenting
 
     //std::vector<std::string>; remember C doesn't really have a string, its a defined data type inside included <vector> file.
+
+    std::cout << "Enter you numbers - press esc when finished for output" << '\n';
+
     std::vector<char> Singing;
     int x(0);
 
@@ -34,18 +58,16 @@ int main()
     //end() returns an iterator with the spacial one-past-the-end value
     //if the vector is empty, begin() will return the same value as end() (can use == operator on iterators)
     //Better way is with empty() (rtns boolean) 
-    std::sort(data.begin(), data.end());
 
-    for (std::vector<int>::size_type i(0); i != data.size(); i = i+1)
-    {
-        std::cout << data.at(i) << '\n';
-    }
+    //std::cout << "Your numbers in order are: " << '\n';
+
+    //std::sort(data.begin(), data.end());
+
+    //for (std::vector<int>::size_type i(0); i != data.size(); i = i+1)
+    //{
+    //    std::cout << data.at(i) << '\n';
+    //}
+
+    testing(data);
 }
 
-int testing()
-{
-    //does this work?
-    return 0;
-
-    //answear - it does. Functions learnt! Lets Change this again Testing again
-}
