@@ -1,24 +1,26 @@
 #include "other.h"
 #include <iostream>
 
-void MyFunc();
+//void MyFunc();
 
-
+// By GK - Heavy comments for learning/referencing in future
 
 int main()
 {
 
-	//Instaniating an object
+	//Instantiating a class to create an object. The linker finds the class deceleration in the header file
 	myClass joby(5);
 
-	//Using its methods written in other.cpp!
+	//Using methods written in another file for the object. The linker finds the methods in the header file and then grabs them from the other .cpp file. 
 	int holder = joby.getNumber();
 
 	//these are linked in the other.h - i.e. when the linker looks for these functions/class - it goes to the header file. 
 
 
 	std::cout << "The number is " << holder << '\n';
-	MyFunc();
+
+	//Calling a function already declared in the file and the linker finds in the other .cpp file without having to use a header. 
+	//MyFunc();
 
 
 
