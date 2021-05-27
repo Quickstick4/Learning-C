@@ -1,7 +1,8 @@
 #include "other.h"
 #include <iostream>
 
-//void MyFunc();
+//Can declare functions here vs header file. TODO find out whats best practice. 
+void MyFunc();
 
 // By GK - Heavy comments for learning/referencing in future
 
@@ -20,7 +21,7 @@ int main()
 	std::cout << "The number is " << holder << '\n';
 
 	//Calling a function already declared in the file and the linker finds in the other .cpp file without having to use a header. 
-	//MyFunc();
+	MyFunc();
 
 
 

@@ -4,7 +4,7 @@
 /////////////////////////Class code for Class and functions declared in Header file//////////////////
 
 //Instaciate the class/Delare the object (make the object)
-//myClass job(45);
+myClass job(45);
 
 
 //ClassConstructor - Construct the object when called
@@ -22,7 +22,7 @@ myClass::myClass(int thisOne)
 
  }
 
-// int holder = job.getNumber();
+int holder = job.getNumber();
 
 /////////////////////////Class code for Class and functions declared in Header file//////////////////
 
