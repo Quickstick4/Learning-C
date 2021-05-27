@@ -4,6 +4,8 @@
 /////////////////////////Class code for Class and functions declared in Header file//////////////////
 
 //Instaciate the class/Delare the object (make the object)
+
+//This is taken by the linker as a definition/decleration - therefore to declare it the constructor runs. 
 myClass job(45);
 
 
@@ -22,7 +24,7 @@ myClass::myClass(int thisOne)
 
  }
 
-int holder = job.getNumber();
+int holder = job.getNumber(); //this is seen by the linker as a definition/decleration and becomes global - bad practise to leave it outside of a method/class
 
 /////////////////////////Class code for Class and functions declared in Header file//////////////////
 
