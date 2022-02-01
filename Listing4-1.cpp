@@ -24,6 +24,8 @@ int main ()
     std::cout << "\"This is the way\"" << '\n';
 
     //std::cout << "Triangle\t" << 3 << '\n';
+
+    //This prints out a random number as its undefined behaviour. i.e. we are asking for a variable when it has no value
     std::cout << shape << '\t' << sides << '\n';
 
 }
